@@ -19,7 +19,7 @@ const puppeteer = require('puppeteer');
   
 
 
-    await page.goto("https://www.wattpad.com/1405001342-alpha-predator-%E9%A1%B6%E7%BA%A7%E6%8E%A0%E9%A3%9F%E8%80%85-bl-%E2%99%A1-76-b%C3%B6l%C3%BCm-%E2%99%A1");
+    await page.goto("web sitesinin linkini giriniz");
     const süre = await page.evaluate(() => {
       return Math.floor(Math.random() * 10) + 1;
      
