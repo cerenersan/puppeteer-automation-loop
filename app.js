@@ -16,8 +16,6 @@ const puppeteer = require('puppeteer');
     const page = await browser.newPage();
  
     // Dosya yüklendi
-  
-
 
     await page.goto("web sitesinin linkini giriniz");
     const süre = await page.evaluate(() => {
